@@ -94,7 +94,7 @@ class _AvrilLavigneState extends State<AvrilLavigne> {
       ), 
       body: Container(
         decoration: BoxDecoration(
-        image: DecorationImage(
+        image:  DecorationImage(
         image: AssetImage('assets/images/bg.png'),
       opacity: .50,
          fit: BoxFit.fill,

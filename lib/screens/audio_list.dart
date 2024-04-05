@@ -12,7 +12,7 @@ class AudioListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("My Playlist"),
+        title: const Text("My Playlist"),
         centerTitle: true,
       ),
     body: Padding(
@@ -26,8 +26,8 @@ class AudioListScreen extends StatelessWidget {
                 leading: CircleAvatar(
                   child: Image.asset('assets/images/1d.jpg'),
                 ),
-                title: Text("Night Changes"),
-                subtitle: Text("by: One Direction"),
+                title: const Text("Night Changes"),
+                subtitle: const Text("by: One Direction"),
               ),
             ),
           ),
@@ -39,8 +39,8 @@ class AudioListScreen extends StatelessWidget {
                 leading: CircleAvatar(
                   child: Image.asset('assets/images/avril.jpg'),
                 ),
-                title: Text("My Happy Ending"),
-                subtitle: Text("by: Avril Lavigne"),
+                title: const Text("My Happy Ending"),
+                subtitle: const Text("by: Avril Lavigne"),
               ),
             ),
           ),
@@ -52,8 +52,8 @@ class AudioListScreen extends StatelessWidget {
                 leading: CircleAvatar(
                   child: Image.asset('assets/images/lemon.jpg'),
                 ),
-                title: Text("Heaven Knows"),
-                subtitle: Text("by: Orange and Lemon"),
+                title: const Text("Heaven Knows"),
+                subtitle: const Text("by: Orange and Lemon"),
               ),
             ),
           ),
@@ -65,8 +65,8 @@ class AudioListScreen extends StatelessWidget {
                 leading: CircleAvatar(
                   child: Image.asset('assets/images/para.jpg'),
                 ),
-                title: Text("The Only Exception"),
-                subtitle: Text("by: Paramore"),
+                title: const Text("The Only Exception"),
+                subtitle: const Text("by: Paramore"),
               ),
             ),
           ),
@@ -78,8 +78,8 @@ class AudioListScreen extends StatelessWidget {
                 leading: CircleAvatar(
                   child: Image.asset('assets/images/cold.jpg'),
                 ),
-                title: Text("Scientist"),
-                subtitle: Text("by: Coldplay"),
+                title: const Text("Scientist"),
+                subtitle: const Text("by: Coldplay"),
               ),
             ),
           ),

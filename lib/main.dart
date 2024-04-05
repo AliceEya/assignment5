@@ -9,12 +9,11 @@ void main() {
 
 class MyFavSong extends StatelessWidget {
   const MyFavSong({super.key});
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const AudioListScreen(),
+      home: AudioListScreen(),
     );
   }
 }
